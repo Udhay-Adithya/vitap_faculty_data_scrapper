@@ -1,0 +1,8 @@
+import 'package:vitap_faculty_scrapper/vitap_faculty_scrapper.dart';
+import 'package:test/test.dart';
+
+void main() {
+  test('calculate', () {
+    expect(calculate(), 42);
+  });
+}
