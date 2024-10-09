@@ -1,5 +1,5 @@
 name: vitap_faculty_scrapper
-description: A sample command-line application.
+description: A simple command-line application tool to get the profile of all faculties.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
@@ -8,6 +8,7 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+  http: ^1.2.2
   # path: ^1.8.0
 
 dev_dependencies:
